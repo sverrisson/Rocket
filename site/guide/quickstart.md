@@ -17,7 +17,7 @@ git clone https://github.com/SergioBenitez/Rocket
 cd Rocket
 git checkout v0.4.0-dev
 cd examples/hello_world
-cargo run
+cargo +nightly run
 ```
 
 There are numerous examples in the `examples/` directory. They can all be run
